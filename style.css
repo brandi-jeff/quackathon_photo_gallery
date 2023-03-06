@@ -1,9 +1,74 @@
-#art__here{
+#art__here, #myGallery{
     display: flex;
     flex-wrap: wrap;
 }
 
 .formBody {
     margin: 10px;
+    padding: 0 1em;
+}
+
+body {
+    background-image: url("https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(77, 39, 9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#intro, #explain{
+    text-align: center;
+}
+
+#yourGallery, #home {
+    text-decoration: none;
+    color: rgb(77, 39, 9);
+}
+
+#link {
+    padding-left: 1.5em;
+    padding-bottom: 20px;; 
+}
+
+#options {
+    padding-left: 1.55em;
+}
+
+.saveButton {
+    padding-left: 5em;
+}
+
+
+header {
+    left:0px;
+}
+
+#galleryIntro{
+    padding-right: 50%;
+
+}
+
+#header {
+    padding-right: 7%
+}
+
+#goBack, #header {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin: 10px;
     padding: 10px;
+    border: 10px;
+    border-style: groove;
+}
+
+button {
+    margin: 1px 0px 20px 10px;
+    padding: 5px;
+    border: 5px;
+    border-style:solid;
+    border-color: darkgrey;
+    border-radius: 5px;
 }

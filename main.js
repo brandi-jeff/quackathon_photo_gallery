@@ -16,13 +16,7 @@ function retrieveArt() {
 function makeCard(searchTerm) {
     const cardDiv = document.createElement("div");
     cardDiv.setAttribute("class", "cardDiv");
-    // cardDiv.setAttribute("id", "fullCard");
     art__here.appendChild(cardDiv); 
-    
-    // const card = document.createElement("div");
-    // card.setAttribute("class", "card");
-    // cardDiv.appendChild(card);
-
     displayImgs(searchTerm);
 }
 

@@ -19,6 +19,7 @@ parsedStorage.forEach(painting => {
     let artUrl = painting.paintingUrl;
     let artImg = document.createElement("img")
     artImg.setAttribute("src", artUrl);
+    artImg.style.width = "15rem";
+    artImg.style.height = "15rem";
     myGallery.appendChild(artImg);
-    let howdy;
 })

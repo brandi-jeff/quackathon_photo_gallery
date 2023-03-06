@@ -8,13 +8,21 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+<header id="header">
+    <img src="art_logo.svg" className="App-logo" alt="logo" />
+    <div>
+        <h1 id="intro">Welcome to the Squackathon Photo Page!</h1>
+        <h2 id="explain">Using the Art Institue of Chicago's API, you can return and save your favorite photos from artists in the art museum.</h2>
+    </div>
+</header>
 <body>
-    <h3 id="options">Please enter you favorite artist's name.</h3>
+    
+    <h4 id="options">Please enter you favorite artist's name or a search term for one of their photos (ie: flowers).</h4>
     <form class="formBody" id="input__form">
         <input type="text" name="" id="user__input" placeholder="Enter search term" required>
         <input type="submit" value="Search">
     </form>
-    <p><a href="gallery.html">View your gallery</a></p>
+    <p id="link"><a id= "yourGallery" href="gallery.html">View your gallery</a></p>
     <div id="art__here">
         <!-- art here -->
 
